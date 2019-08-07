@@ -1,12 +1,12 @@
 ---
-url: "http://nflix-web:8000"
+url: "http://localhost:8000"
 database:
-  host: "pgdb"
+  host: "127.0.0.1"
   dbname: "nflix"
   user: "postgres"
   password: "qaninja"
 api:
-  movies: "http://nflix-api-movies:3002"
+  movies: "http://localhost:3002"
 users:
   cat_manager:
     email: "tony@stark.com"
