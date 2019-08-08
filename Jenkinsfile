@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "ruby:alpine"
+            image "papitoio/capyrunner"
             args "--network=skynet" 
         }
     }
